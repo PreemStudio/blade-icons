@@ -34,3 +34,11 @@ it('returns the styles as a collection', function (): void {
     expect($stylesCollection)->toBeInstanceOf(Collection::class);
     expect($stylesCollection)->toHaveLength(2);
 });
+
+it('creates an instance with styles from a directory', function (): void {
+    $iconFamily = IconFamily::fromDirectory('myFamily', __DIR__.'/../../icons/font-awesome');
+
+    $stylesCollection = $iconFamily->styles();
+    expect($stylesCollection)->toBeInstanceOf(Collection::class);
+    expect($stylesCollection)->toHaveLength(3);
+});
