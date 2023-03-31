@@ -38,7 +38,7 @@ it('should set a family and get icons from it', function (): void {
         ]),
     );
 
-    $icon = $this->registry->findByStyle('font-awesome', 'brands');
+    $icon = $this->registry->findStyleByName('font-awesome', 'brands');
 
     expect($icon)->toBeInstanceOf(IconFamilyStyle::class);
 });
