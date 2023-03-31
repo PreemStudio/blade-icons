@@ -7,6 +7,6 @@ namespace PreemStudio\BladeIcons;
 if (!\function_exists('svg')) {
     function svg(string $name, $class = '', array $attributes = []): Vector
     {
-        return app(VectorFactory::class)->make($name, $class, $attributes);
+        return app(VectorFactory::class)->svg($name, $class, $attributes);
     }
 }

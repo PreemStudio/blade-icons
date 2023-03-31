@@ -21,6 +21,11 @@ final class IconFamilyStyle
         return $this->prefix ?? $this->name;
     }
 
+    public function icons(): array
+    {
+        return \array_keys($this->files());
+    }
+
     public function files(): array
     {
         $icons = [];
