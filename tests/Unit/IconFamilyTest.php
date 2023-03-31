@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 use Illuminate\Support\Collection;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyStyle;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyStyle;
 
 it('creates an icon family with a name, styles and optional prefix', function (): void {
     $styles = [new IconFamilyStyle('style1', ''), new IconFamilyStyle('style2', '')];

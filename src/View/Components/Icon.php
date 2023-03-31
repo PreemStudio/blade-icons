@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\Icons\View\Components;
+namespace PreemStudio\BladeIcons\View\Components;
 
 use Closure;
 use Illuminate\View\Component;
-use function PreemStudio\Icons\svg;
+use function PreemStudio\BladeIcons\svg;
 
 final class Icon extends Component
 {

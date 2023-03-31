@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Registries;
 
-use PreemStudio\Icons\Facades\IconFamilyRegistry;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyStyle;
-use PreemStudio\Icons\Vector;
-use function PreemStudio\Icons\svg;
+use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyStyle;
+use PreemStudio\BladeIcons\Vector;
+use function PreemStudio\BladeIcons\svg;
 
 it('should create an SVG', function (): void {
     IconFamilyRegistry::push(

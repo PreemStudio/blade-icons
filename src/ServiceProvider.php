@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\Icons;
+namespace PreemStudio\BladeIcons;
 
 use PreemStudio\Jetpack\Package\AbstractServiceProvider;
 

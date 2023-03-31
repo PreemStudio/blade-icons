@@ -3,11 +3,11 @@
 declare(strict_types=1);
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use PreemStudio\Icons\Facades\IconFamilyRegistry;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyStyle;
-use PreemStudio\Icons\Vector;
-use PreemStudio\Icons\VectorFactory;
+use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyStyle;
+use PreemStudio\BladeIcons\Vector;
+use PreemStudio\BladeIcons\VectorFactory;
 
 beforeEach(function (): void {
     IconFamilyRegistry::push(

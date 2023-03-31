@@ -16,7 +16,7 @@ final class AnalysisTest extends AbstractAnalysisTestCase
     protected static function getIgnored(): array
     {
         return [
-            'PreemStudio\Icons\svg',
+            'PreemStudio\BladeIcons\svg',
         ];
     }
 }

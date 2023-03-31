@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Tests\Unit\Registries;
 
 use Illuminate\Support\Collection;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyRegistry;
-use PreemStudio\Icons\IconFamilyStyle;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyRegistry;
+use PreemStudio\BladeIcons\IconFamilyStyle;
 
 beforeEach(function (): void {
     $this->registry = new IconFamilyRegistry();

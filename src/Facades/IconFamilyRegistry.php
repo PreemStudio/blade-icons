@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\Icons\Facades;
+namespace PreemStudio\BladeIcons\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyStyle;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyStyle;
 
 /**
  * @method static Collection       all()

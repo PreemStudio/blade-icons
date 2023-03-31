@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use PreemStudio\Icons\IconFamilyStyle;
+use PreemStudio\BladeIcons\IconFamilyStyle;
 
 it('creates an icon family style with a name, directory, and optional prefix', function (): void {
     $iconFamilyStyle = new IconFamilyStyle('myStyle', '');

@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 use Illuminate\View\ComponentAttributeBag;
-use PreemStudio\Icons\Facades\IconFamilyRegistry;
-use PreemStudio\Icons\IconFamily;
-use PreemStudio\Icons\IconFamilyStyle;
-use PreemStudio\Icons\View\Components\Icon;
+use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
+use PreemStudio\BladeIcons\IconFamily;
+use PreemStudio\BladeIcons\IconFamilyStyle;
+use PreemStudio\BladeIcons\View\Components\Icon;
 
 beforeEach(function (): void {
     IconFamilyRegistry::push(

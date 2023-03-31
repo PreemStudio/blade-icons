@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\Icons;
+namespace PreemStudio\BladeIcons;
 
 if (!\function_exists('svg')) {
     function svg(string $name, $class = '', array $attributes = []): Vector

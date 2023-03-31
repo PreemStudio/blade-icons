@@ -13,6 +13,6 @@ abstract class TestCase extends AbstractPackageTestCase
 {
     protected function getServiceProviderClass(): string
     {
-        return \PreemStudio\Icons\ServiceProvider::class;
+        return \PreemStudio\BladeIcons\ServiceProvider::class;
     }
 }

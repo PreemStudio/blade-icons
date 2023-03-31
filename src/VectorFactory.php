@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PreemStudio\Icons;
+namespace PreemStudio\BladeIcons;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use PreemStudio\Icons\Facades\IconFamilyRegistry;
+use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
 use Throwable;
 
 final class VectorFactory

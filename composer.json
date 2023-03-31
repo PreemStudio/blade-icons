@@ -40,7 +40,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "PreemStudio\\Icons\\": "src"
+            "PreemStudio\\BladeIcons\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "Icons": "PreemStudio\\Icons\\Facades\\IconFamilyRegistry"
+                "Icons": "PreemStudio\\BladeIcons\\Facades\\IconFamilyRegistry"
             },
             "providers": [
-                "PreemStudio\\Icons\\ServiceProvider"
+                "PreemStudio\\BladeIcons\\ServiceProvider"
             ]
         }
     },

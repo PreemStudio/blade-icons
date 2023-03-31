@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use PreemStudio\Icons\Vector;
+use PreemStudio\BladeIcons\Vector;
 
 it('can create an instance of Vector', function (): void {
     $vector = new Vector('test', '<svg></svg>');
