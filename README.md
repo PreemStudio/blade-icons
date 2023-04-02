@@ -1,9 +1,11 @@
 # Blade Icons
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/preemstudio/blade-icons.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/PreemStudio/blade-icons/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/preemstudio/blade-icons/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/PreemStudio/blade-icons/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/preemstudio/blade-icons.svg?style=flat-square)](https://packagist.org/packages/preemstudio/blade-icons)
+[![Latest Version on Packagist](https://badge.sh/packagist/version/PreemStudio/blade-icons)](https://packagist.org/packages/preemstudio/blade-icons)
+[![GitHub Coding Standards Action Status](https://badge.sh/github/check-runs/PreemStudio/blade-icons/main/coding-standards)](https://github.com/PreemStudio/blade-icons/actions)
+[![GitHub Security Analysis Action Status](https://badge.sh/github/check-runs/PreemStudio/blade-icons/main/security-analysis)](https://github.com/PreemStudio/blade-icons/actions)
+[![GitHub Static Code Analysis Action Status](https://badge.sh/github/check-runs/PreemStudio/blade-icons/main/static-code-analysis)](https://github.com/PreemStudio/blade-icons/actions)
+[![GitHub Tests Action Status](https://badge.sh/github/check-runs/PreemStudio/blade-icons/main/tests)](https://github.com/PreemStudio/blade-icons/actions)
+[![Total Downloads](https://badge.sh/packagist/downloads/PreemStudio/blade-icons)](https://packagist.org/packages/preemstudio/blade-icons)
 
 A package to easily use icon families with Laravel Blade.
 
