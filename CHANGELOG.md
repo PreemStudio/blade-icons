@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [1.2.0] - 2023-04-02
+### Changed
+- separate component registrar and vector factory
+
+
 ## [1.1.3] - 2023-03-31
 ### Added
 - implement icon family creation from directory
@@ -27,8 +32,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.0 - 2023-03-31
 
-[Unreleased]: https://github.com/PreemStudio/:package_slug/compare/1.1.3...HEAD
-[1.1.3]: https://github.com/PreemStudio/:package_slug/compare/1.1.2...1.1.3
-[1.1.2]: https://github.com/PreemStudio/:package_slug/compare/1.1.1...1.1.2
-[1.1.1]: https://github.com/PreemStudio/:package_slug/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/PreemStudio/:package_slug/compare/1.0.0...1.1.0
+[Unreleased]: https://github.com/PreemStudio/blade-icons/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/PreemStudio/blade-icons/compare/1.1.3...1.2.0
+[1.1.3]: https://github.com/PreemStudio/blade-icons/compare/1.1.2...1.1.3
+[1.1.2]: https://github.com/PreemStudio/blade-icons/compare/1.1.1...1.1.2
+[1.1.1]: https://github.com/PreemStudio/blade-icons/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/PreemStudio/blade-icons/compare/1.0.0...1.1.0
