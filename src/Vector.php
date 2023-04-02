@@ -43,6 +43,11 @@ final class Vector implements Htmlable
         return $this->attributes;
     }
 
+    public function toBase64(): string
+    {
+        return \base64_encode($this->toHtml());
+    }
+
     public function toHtml(): string
     {
         return \str_replace(

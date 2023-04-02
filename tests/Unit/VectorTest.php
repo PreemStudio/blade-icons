@@ -64,3 +64,10 @@ it('can handle attribute values with special characters', function (): void {
 
     expect($html)->toBe('<svg data-custom="hello&quot;world"></svg>');
 });
+
+it('can return the HTML as base64', function (): void {
+    $vector = new Vector('test', '<svg></svg>');
+    $vector->readOnly();
+
+    expect($vector->toBase64())->toBe('PHN2ZyByZWFkLW9ubHk+PC9zdmc+');
+});
