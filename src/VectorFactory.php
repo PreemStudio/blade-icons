@@ -5,31 +5,12 @@ declare(strict_types=1);
 namespace PreemStudio\BladeIcons;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Illuminate\Support\Facades\Blade;
-use PreemStudio\BladeIcons\Exceptions\IconFamilyException;
 use PreemStudio\BladeIcons\Facades\IconFamilyRegistry;
-use PreemStudio\BladeIcons\View\Components\Icon;
 use Throwable;
 
 final class VectorFactory
 {
-    public function components(string $family): void
-    {
-        $parent = IconFamilyRegistry::findByName($family);
-
-        if (empty($parent)) {
-            throw IconFamilyException::missing($family);
-        }
-
-        /** @var IconFamilyStyle */
-        foreach ($parent->styles() as $style) {
-            foreach ($style->icons() as $icon) {
-                Blade::component(Icon::class, $icon, $parent->prefix().'-'.$style->prefix());
-            }
-        }
-    }
-
-    public function svg(string $name, ?string $class = null, ?array $attributes = []): Vector
+    public function make(string $name, ?string $class = null, ?array $attributes = []): Vector
     {
         [$family, $style, $icon] = $this->splitSetAndName($name);
 

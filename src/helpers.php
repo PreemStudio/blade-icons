@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace PreemStudio\BladeIcons;
 
+use PreemStudio\BladeIcons\Facades\VectorFactory;
+
 if (!\function_exists('svg')) {
     function svg(string $name, $class = '', array $attributes = []): Vector
     {
-        return app(VectorFactory::class)->svg($name, $class, $attributes);
+        return VectorFactory::make($name, $class, $attributes);
     }
 }
