@@ -71,3 +71,10 @@ it('can return the HTML as base64', function (): void {
 
     expect($vector->toBase64())->toBe('PHN2ZyByZWFkLW9ubHk+PC9zdmc+');
 });
+
+it('can return the HTML as base64 data', function (): void {
+    $vector = new Vector('test', '<svg></svg>');
+    $vector->readOnly();
+
+    expect($vector->toBase64Data())->toBe('data:image/svg+xml;base64,PHN2ZyByZWFkLW9ubHk+PC9zdmc+');
+});

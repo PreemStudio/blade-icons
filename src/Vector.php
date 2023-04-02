@@ -48,6 +48,11 @@ final class Vector implements Htmlable
         return \base64_encode($this->toHtml());
     }
 
+    public function toBase64Data(): string
+    {
+        return 'data:image/svg+xml;base64,'.$this->toBase64();
+    }
+
     public function toHtml(): string
     {
         return \str_replace(
