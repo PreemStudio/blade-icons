@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/PreemStudio/:package_slug
+  repository_url: https://github.com/PreemStudio/blade-icons
 options:
   commits:
     filters:

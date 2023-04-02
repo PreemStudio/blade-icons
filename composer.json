@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/preemstudio/blade-icons",
+    "homepage": "https://github.com/PreemStudio/blade-icons",
     "require": {
         "php": "^8.1",
         "illuminate/support": "^10.0",
