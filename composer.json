@@ -3,7 +3,7 @@
     "description": "A package to easily use icon families with Laravel Blade.",
     "license": "MIT",
     "keywords": [
-        "PreemStudio",
+        "Preem Studio",
         "laravel",
         "blade-icons"
     ],
@@ -16,7 +16,7 @@
     ],
     "homepage": "https://github.com/PreemStudio/blade-icons",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "illuminate/support": "^10.0",
         "preemstudio/laravel-jetpack": "^1.0"
     },
