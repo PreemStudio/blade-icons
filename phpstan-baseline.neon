@@ -1,0 +1,66 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method PreemStudio\\\\BladeIcons\\\\IconFamily\\:\\:styles\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Parameter \\#2 \\$styles of class PreemStudio\\\\BladeIcons\\\\IconFamily constructor expects array\\<PreemStudio\\\\BladeIcons\\\\IconFamilyStyle\\>, array given\\.$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Cannot call method styles\\(\\) on PreemStudio\\\\BladeIcons\\\\IconFamily\\|null\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method PreemStudio\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:all\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method PreemStudio\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findByName\\(\\) should return PreemStudio\\\\BladeIcons\\\\IconFamily\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method PreemStudio\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findByPrefix\\(\\) should return PreemStudio\\\\BladeIcons\\\\IconFamily\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method PreemStudio\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findStyleByName\\(\\) should return PreemStudio\\\\BladeIcons\\\\IconFamilyStyle\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Property PreemStudio\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:\\$families with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Cannot access property \\$directory on PreemStudio\\\\BladeIcons\\\\IconFamilyStyle\\|null\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#2 \\$attributes of method PreemStudio\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) expects array, array\\|null given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Function PreemStudio\\\\BladeIcons\\\\svg\\(\\) has parameter \\$class with no type specified\\.$#"
+			count: 1
+			path: src/helpers.php
