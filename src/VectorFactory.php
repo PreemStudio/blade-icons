@@ -38,13 +38,14 @@ final class VectorFactory
 
     private function splitSetAndName(string $name): array
     {
-        $segments = \explode('.', $name, 3);
+        [$family, $remainder] = \explode(':', $name, 3);
+        $segments = \explode('-', $remainder, 2);
 
-        if (\count($segments) > 2) {
-            return [$segments[0], $segments[1], $segments[2]];
+        if (\count($segments) > 1) {
+            return [$family, $segments[0], $segments[1]];
         }
 
-        return [$segments[0], 'default', $segments[1]];
+        return [$family, 'default', $segments[0]];
     }
 
     private function formatAttributes(array|string|null $class = null, array $attributes = []): array

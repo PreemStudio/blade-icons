@@ -6,17 +6,10 @@ namespace PreemStudio\BladeIcons\View\Components;
 
 use Closure;
 use Illuminate\View\Component;
-use function PreemStudio\BladeIcons\svg;
+use PreemStudio\BladeIcons\Facades\VectorFactory;
 
 final class Icon extends Component
 {
-    public string $name;
-
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
-
     public function render(): Closure
     {
         return function (array $data) {
@@ -26,7 +19,7 @@ final class Icon extends Component
 
             unset($attributes['class']);
 
-            return svg($this->name, $class, $attributes)->toHtml();
+            return VectorFactory::make($this->componentName, $class, $attributes)->toHtml();
         };
     }
 }

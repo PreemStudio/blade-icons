@@ -22,7 +22,7 @@ final class ComponentRegistrar
         /** @var IconFamilyStyle */
         foreach ($parent->styles() as $style) {
             foreach ($style->icons() as $icon) {
-                Blade::component(Icon::class, $icon, $parent->prefix().'-'.$style->prefix());
+                Blade::component(Icon::class, $icon, $parent->prefix().':'.$style->prefix());
             }
         }
     }
