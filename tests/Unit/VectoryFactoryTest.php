@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
 use BombenProdukt\BladeIcons\IconFamily;
 use BombenProdukt\BladeIcons\IconFamilyStyle;
 use BombenProdukt\BladeIcons\Vector;
 use BombenProdukt\BladeIcons\VectorFactory;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 beforeEach(function (): void {
     IconFamilyRegistry::push(

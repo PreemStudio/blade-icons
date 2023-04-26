@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons\Facades;
 
-use Illuminate\Support\Facades\Facade;
 use BombenProdukt\BladeIcons\Vector;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static Vector make(string $name, ?string $class = null, ?array $attributes = [])

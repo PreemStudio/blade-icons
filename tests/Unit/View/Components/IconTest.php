@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use Illuminate\View\ComponentAttributeBag;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
 use BombenProdukt\BladeIcons\IconFamily;
 use BombenProdukt\BladeIcons\IconFamilyStyle;
 use BombenProdukt\BladeIcons\View\Components\Icon;
+use Illuminate\View\ComponentAttributeBag;
 
 beforeEach(function (): void {
     IconFamilyRegistry::push(

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons\View\Components;
 
+use BombenProdukt\BladeIcons\Facades\VectorFactory;
 use Closure;
 use Illuminate\View\Component;
-use BombenProdukt\BladeIcons\Facades\VectorFactory;
 
 final class Icon extends Component
 {

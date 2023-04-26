@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-use Illuminate\Support\Facades\Blade;
 use BombenProdukt\BladeIcons\Exceptions\IconFamilyException;
 use BombenProdukt\BladeIcons\Facades\ComponentRegistrar;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
 use BombenProdukt\BladeIcons\IconFamily;
 use BombenProdukt\BladeIcons\IconFamilyStyle;
+use Illuminate\Support\Facades\Blade;
 
 beforeEach(function (): void {
     IconFamilyRegistry::push(

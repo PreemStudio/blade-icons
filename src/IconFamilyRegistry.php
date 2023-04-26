@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons;
 
-use Illuminate\Support\Collection;
 use BombenProdukt\BladeIcons\Exceptions\IconFamilyException;
+use Illuminate\Support\Collection;
 
 final class IconFamilyRegistry
 {

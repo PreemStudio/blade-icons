@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons;
 
-use Illuminate\Support\Facades\Blade;
 use BombenProdukt\BladeIcons\Exceptions\IconFamilyException;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
 use BombenProdukt\BladeIcons\View\Components\Icon;
+use Illuminate\Support\Facades\Blade;
 
 final class ComponentRegistrar
 {

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace BombenProdukt\BladeIcons;
 
-use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
+use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Throwable;
 
 final class VectorFactory
