@@ -8,13 +8,8 @@ use BombenProdukt\BladeIcons\Facades\VectorFactory;
 use Closure;
 use Illuminate\View\Component;
 
-final class Icon extends Component
+final class Vector extends Component
 {
-    public function __construct(public readonly string $name)
-    {
-        //
-    }
-
     public function render(): Closure
     {
         return function (array $data) {
@@ -24,7 +19,7 @@ final class Icon extends Component
 
             unset($attributes['class']);
 
-            return VectorFactory::make($this->name, $class, $attributes)->toHtml();
+            return VectorFactory::make($this->componentName, $class, $attributes)->toHtml();
         };
     }
 }

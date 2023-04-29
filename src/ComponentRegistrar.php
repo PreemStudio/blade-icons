@@ -6,7 +6,7 @@ namespace BombenProdukt\BladeIcons;
 
 use BombenProdukt\BladeIcons\Exceptions\IconFamilyException;
 use BombenProdukt\BladeIcons\Facades\IconFamilyRegistry;
-use BombenProdukt\BladeIcons\View\Components\Icon;
+use BombenProdukt\BladeIcons\View\Components\Vector;
 use Illuminate\Support\Facades\Blade;
 
 final class ComponentRegistrar
@@ -22,7 +22,7 @@ final class ComponentRegistrar
         /** @var IconFamilyStyle */
         foreach ($parent->styles() as $style) {
             foreach ($style->icons() as $icon) {
-                Blade::component(Icon::class, $icon, $parent->prefix().':'.$style->prefix());
+                Blade::component(Vector::class, $icon, $parent->prefix().':'.$style->prefix());
             }
         }
     }

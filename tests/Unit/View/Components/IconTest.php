@@ -19,12 +19,13 @@ beforeEach(function (): void {
 });
 
 it('creates an icon component with a given name', function (): void {
-    $iconComponent = new Icon('font-awesome.brands.apple');
-    expect($iconComponent->name)->toBe('font-awesome.brands.apple');
+    $iconComponent = new Icon('font-awesome:brands-apple');
+
+    expect($iconComponent->name)->toBe('font-awesome:brands-apple');
 });
 
 it('renders the icon with default attributes', function (): void {
-    $iconComponent = new Icon('font-awesome.brands.apple');
+    $iconComponent = new Icon('font-awesome:brands-apple');
     $html = $iconComponent->render()->__invoke([
         'attributes' => new ComponentAttributeBag([]),
     ]);
@@ -33,7 +34,7 @@ it('renders the icon with default attributes', function (): void {
 });
 
 it('renders the icon with custom attributes and class', function (): void {
-    $iconComponent = new Icon('font-awesome.brands.apple');
+    $iconComponent = new Icon('font-awesome:brands-apple');
     $html = $iconComponent->render()->__invoke([
         'attributes' => new ComponentAttributeBag([
             'class' => 'custom-class',
