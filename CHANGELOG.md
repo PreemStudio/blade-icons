@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [1.0.5] - 2023-05-01
+### Changed
+- clean up prefix component name building
+
+
 ## [1.0.4] - 2023-05-01
 ### Fixed
 - separate style prefix and icon with a dash
@@ -30,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.0 - 2023-04-26
 
-[Unreleased]: https://github.com/BombenProdukt/blade-icons/compare/1.0.4...HEAD
+[Unreleased]: https://github.com/BombenProdukt/blade-icons/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/BombenProdukt/blade-icons/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/BombenProdukt/blade-icons/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/BombenProdukt/blade-icons/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/BombenProdukt/blade-icons/compare/1.0.1...1.0.2
