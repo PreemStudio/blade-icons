@@ -25,10 +25,10 @@ final class ComponentRegistrar
                 $prefix = $parent->prefix().':';
 
                 if ($style->prefix() !== 'default') {
-                    $prefix .= $style->prefix();
+                    $prefix .= $style->prefix().'-';
                 }
 
-                Blade::component(Vector::class, $icon, $prefix);
+                Blade::component(Vector::class, $prefix.$icon);
             }
         }
     }
