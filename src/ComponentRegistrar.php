@@ -22,13 +22,10 @@ final class ComponentRegistrar
         /** @var IconFamilyStyle */
         foreach ($parent->styles() as $style) {
             foreach ($style->icons() as $icon) {
-                $prefix = $parent->prefix().':';
-
-                if ($style->prefix() !== 'default') {
-                    $prefix .= $style->prefix().'-';
-                }
-
-                Blade::component(Vector::class, $prefix.$icon);
+                Blade::component(
+                    Vector::class,
+                    \sprintf('%s:%s-%s', $parent->prefix(), $style->prefix(), $icon),
+                );
             }
         }
     }
