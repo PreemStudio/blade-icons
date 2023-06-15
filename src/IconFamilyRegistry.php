@@ -9,6 +9,9 @@ use Illuminate\Support\Collection;
 
 final class IconFamilyRegistry
 {
+    /**
+     * @var Collection<int, IconFamily>
+     */
     protected Collection $families;
 
     public function __construct()
@@ -16,6 +19,9 @@ final class IconFamilyRegistry
         $this->families = new Collection();
     }
 
+    /**
+     * @return Collection<int, IconFamily>
+     */
     public function all(): Collection
     {
         return $this->families;

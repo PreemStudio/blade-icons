@@ -16,27 +16,7 @@ parameters:
 			path: src/IconFamilyRegistry.php
 
 		-
-			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:all\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
-			count: 1
-			path: src/IconFamilyRegistry.php
-
-		-
-			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findByName\\(\\) should return BombenProdukt\\\\BladeIcons\\\\IconFamily\\|null but returns mixed\\.$#"
-			count: 1
-			path: src/IconFamilyRegistry.php
-
-		-
-			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findByPrefix\\(\\) should return BombenProdukt\\\\BladeIcons\\\\IconFamily\\|null but returns mixed\\.$#"
-			count: 1
-			path: src/IconFamilyRegistry.php
-
-		-
 			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findStyleByName\\(\\) should return BombenProdukt\\\\BladeIcons\\\\IconFamilyStyle\\|null but returns mixed\\.$#"
-			count: 1
-			path: src/IconFamilyRegistry.php
-
-		-
-			message: "#^Property BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:\\$families with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
 			count: 1
 			path: src/IconFamilyRegistry.php
 
