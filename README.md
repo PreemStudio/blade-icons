@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/BombenProdukt/blade-icons/actions">
+    <a href="https://github.com/faustbrian/blade-icons/actions">
         <img src="https://badge.sh/github/check-runs/BombenProdukt/blade-icons" alt="Checks" />
     </a>
     <a href="https://packagist.org/packages/bombenprodukt/blade-icons">
@@ -21,7 +21,7 @@
 
 ## About Blade Icons
 
-This project was created by, and is maintained by [BombenProdukt](https://github.com/BombenProdukt), and is a package to easily use icon families with Laravel Blade. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
+This project was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and is a package to easily use icon families with Laravel Blade. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
 
 > **Note**
 > This package is inspired by [blade-ui-kit/blade-icons](https://github.com/blade-ui-kit/blade-icons); however, it aims for a different architecture and set of features.
