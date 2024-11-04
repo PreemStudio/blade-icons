@@ -1,0 +1,61 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/ComponentRegistrar.php
+
+		-
+			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamily\\:\\:styles\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Parameter \\#2 \\$styles of class BombenProdukt\\\\BladeIcons\\\\IconFamily constructor expects array\\<BombenProdukt\\\\BladeIcons\\\\IconFamilyStyle\\>, array given\\.$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Cannot call method styles\\(\\) on BombenProdukt\\\\BladeIcons\\\\IconFamily\\|null\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method BombenProdukt\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findStyleByName\\(\\) should return BombenProdukt\\\\BladeIcons\\\\IconFamilyStyle\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, BombenProdukt\\\\BladeIcons\\\\IconFamily\\|null given\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Cannot access property \\$directory on BombenProdukt\\\\BladeIcons\\\\IconFamilyStyle\\|null\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Only booleans are allowed in &&, array given on the right side\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#2 \\$attributes of method BombenProdukt\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) expects array, array\\|null given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Function BombenProdukt\\\\BladeIcons\\\\svg\\(\\) has parameter \\$class with no type specified\\.$#"
+			count: 1
+			path: src/helpers.php
