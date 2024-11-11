@@ -17,7 +17,7 @@
   "homepage": "https://github.com/basecodeoy/blade-icons",
   "require": {
     "php": "^8.2",
-    "basecodeoy/laravel-package-powerpack": "^0.0.1",
+    "basecodeoy/laravel-package-powerpack": "^0.0.2",
     "illuminate/support": "^11.0"
   },
   "require-dev": {
