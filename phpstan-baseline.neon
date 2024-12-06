@@ -1,0 +1,151 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Cannot call method icons\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/ComponentRegistrar.php
+
+		-
+			message: "#^Cannot call method prefix\\(\\) on mixed\\.$#"
+			count: 1
+			path: src/ComponentRegistrar.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/ComponentRegistrar.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\IconFamily\\:\\:styles\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Parameter \\#2 \\$styles of class BaseCodeOy\\\\BladeIcons\\\\IconFamily constructor expects array\\<BaseCodeOy\\\\BladeIcons\\\\IconFamilyStyle\\>, array given\\.$#"
+			count: 1
+			path: src/IconFamily.php
+
+		-
+			message: "#^Cannot call method styles\\(\\) on BaseCodeOy\\\\BladeIcons\\\\IconFamily\\|null\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\IconFamilyRegistry\\:\\:findStyleByName\\(\\) should return BaseCodeOy\\\\BladeIcons\\\\IconFamilyStyle\\|null but returns mixed\\.$#"
+			count: 1
+			path: src/IconFamilyRegistry.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\IconFamilyStyle\\:\\:files\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/IconFamilyStyle.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\IconFamilyStyle\\:\\:icons\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/IconFamilyStyle.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\ServiceProvider\\:\\:provides\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\Vector\\:\\:__call\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Vector.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\Vector\\:\\:__construct\\(\\) has parameter \\$attributes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Vector.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\Vector\\:\\:attributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Vector.php
+
+		-
+			message: "#^Cannot access property \\$directory on BaseCodeOy\\\\BladeIcons\\\\IconFamilyStyle\\|null\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) has parameter \\$attributes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) has parameter \\$class with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:make\\(\\) has parameter \\$attributes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:splitSetAndName\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Only booleans are allowed in &&, array given on the right side\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of function trim expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Parameter \\#2 \\$attributes of method BaseCodeOy\\\\BladeIcons\\\\VectorFactory\\:\\:formatAttributes\\(\\) expects array, array\\|null given\\.$#"
+			count: 1
+			path: src/VectorFactory.php
+
+		-
+			message: "#^Function BaseCodeOy\\\\BladeIcons\\\\svg\\(\\) has parameter \\$attributes with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/helpers.php
+
+		-
+			message: "#^Function BaseCodeOy\\\\BladeIcons\\\\svg\\(\\) has parameter \\$class with no type specified\\.$#"
+			count: 1
+			path: src/helpers.php
+
+		-
+			message: "#^Method Tests\\\\Application\\\\AnalysisTest\\:\\:getIgnored\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Application/AnalysisTest.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
+
+		-
+			message: "#^Access to an undefined property PHPUnit\\\\Framework\\\\TestCase\\:\\:\\$registry\\.$#"
+			count: 5
+			path: tests/Unit/IconFamilyRegistryTest.php
+
+		-
+			message: "#^Call to an undefined method BaseCodeOy\\\\BladeIcons\\\\Vector\\:\\:readOnly\\(\\)\\.$#"
+			count: 4
+			path: tests/Unit/VectorTest.php
+
+		-
+			message: "#^Call to an undefined method BaseCodeOy\\\\BladeIcons\\\\Vector\\:\\:width\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/VectorTest.php
